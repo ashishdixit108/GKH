@@ -1,0 +1,44 @@
+@CHARSET "ISO-8859-1";
+
+.navbar{
+	border: 1px solid #274994;
+	border-radius:none;
+	margin-bottom: 0;
+}
+.navbar-inverse{
+	background: #425B91;
+	color: white;
+	border-radius:0px;
+}
+
+.navbar-inverse .navbar-nav > .active > a{
+	background: #274994;
+}
+
+.navbar-inverse .navbar-nav > .active > a:HOVER{
+	background: #274994;
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a{
+	color: white;
+}
+
+.jumbotron-inverse{
+	padding: 10px 0;
+	margin: 0;
+	background: #5e79b3;
+	color: white;
+}
+
+body {
+	background: #8c9dc1;
+}
+
+.start-button{
+	margin-top: 50px;
+}
+.start-design-home{
+	    width: 100%;
+    padding: 10px;
+    font-size: 22px;
+}
